@@ -1,49 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Modelo Z Ejemplo 2 (claro)</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header class="topbar">
-        <div class="wrap">
-         <a class="logo" href="#">ZDemo</a>
-         <nav class="nav">
-            <a href="#beneficios">Beneficios</a>
-            <a href="#casos">Casos</a>
-            <a class="btn" href="#acta">Probar</a>
-         </nav>
-        </div>
-    </header>
-    <section class="hero">
-        <div class="wrap grid">
-            <div class="copy">
-                <h1>Guia la mirada, Menos ruido, mas clics</h1>
-                <p class="lead">Patron en z: logo -> menú/CTA -> mensaje -> CTA final. Simple, funciona y no estorba</p>
-                <div class="actions">
-                    <a class="btn" href="#acta"> Empezar ahora</a>
-                    <a class="link" href="#beneficios">Comó funciona</a>
-                </div>
-            </div>
-            <figure class="mock">
-                <div class="card">
-                    <div class="bar">
-                        <div class="blocks">
-                            <span></span><span></span><span></span>
-                        </div>
-                        <div class="cta"></div>
-                    </div>
-                    <figcaption class="hint">esquema:arriva navegacion,cebtro mensaje,abajo CTA</figcaption>
-                </div>
-            </figure>
-        </div>
-    </section>
-    <section id="Beneficios" class="section">
-        <div class="wrap cards">
-            <article class="card2">
-               <section id="beneficios" class="section">
+<!-- Z: tramo superior (izq der). Logo a la izquierda, CTA a la derecha -->
+<header class="topbar">
+<div class="wrap">
+<a class="logo" href="#">ZDemo</a>
+<nav class="nav">
+<a href="#beneficios">Beneficios</a>
+<a href="#casos">Casos</a>
+<!-- Dejo el CTA arriba a la derecha.
+<a class="btn" href="#cta">Probar</a>
+</nav>
+</div>
+</header>
+<!-- Z: diagonal (arriba der abajo izq). 
+<section class="hero">
+<div class="wrap grid">
+<div class="copy">
+-->
+<h1>Guía la mirada. Menos ruido, más clics.</h1>
+<p class="lead">Patrón en Z: logo menú/CTA → mensaje → CTA final. Simple, funciona y no estorba.</p>
+<div class="actions">
+<a class="btn" href="#cta">Empezar ahora</a>
+<a class="link" href="#beneficios">Cómo funciona</a>
+</div>
+</div>
+<figure class="mock">
+<div class="card">
+<div class="bar"></div>
+<div class="blocks">
+
+<figure class="mock">
+  <div class="card">
+    <div class="bar"></div>
+    <div class="blocks">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="cta"></div>
+  </div>
+  <figcaption class="hint">Esquema: arriba navegación, centro mensaje, abajo CTA.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="beneficios" class="section">
   <div class="wrap cards">
     <article class="card2">
       <h3>Claro</h3>
@@ -74,8 +80,10 @@
 <!-- Z: tramo final (abajo der). Listo. -->
 <section id="cta" class="section cta">
   <div class="wrap ctaBox">
-    <h2>¿Listo para publicarlo?</h2>
-    <p>Lo subes a GitHub Pages y queda en línea. Sin servidores.</p>
+    <div>
+      <h2>¿Listo para publicarlo?</h2>
+      <p>Lo subes a GitHub Pages y queda en línea. Sin servidores.</p>
+    </div>
     <a class="btn btnSolid" href="#">Crear cuenta</a>
   </div>
 </section>
